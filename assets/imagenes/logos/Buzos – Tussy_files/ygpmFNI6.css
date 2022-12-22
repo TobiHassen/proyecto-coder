@@ -1,0 +1,365 @@
+body.p-popup-open {
+    overflow: hidden;
+}
+
+.p-optin,
+.p-optin * {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+.p-optin {
+    width: 100%;
+    color: #696969;
+    border-radius: 3px;
+    margin: 20px auto;
+    position: relative;
+    max-width: 760px;
+}
+
+.p-optin {
+    overflow: hidden;
+    border-radius: 7px;
+}
+
+.p-close {
+    color: #eee;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.p-close:hover {
+    filter: brightness(1.1);
+}
+
+.p-inline .p-close {
+    display: none;
+}
+
+.p-optin .p-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem 2rem;
+    background: #00aee8;
+    color: #eee;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-weight: normal;
+    font-size: 1.5em;
+}
+
+.p-optin .p-body {
+    padding: 2rem 2rem;
+    background: #fff;
+}
+
+.p-header + .p-body {
+    border-top: none;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.p-optin .p-body p {
+    margin: 0 0 1rem;
+    color: #696969;
+    font-size: 1.2em;
+    line-height: 1.2;
+}
+
+.p-optin p.p-title {
+    font-size: 1.4em;
+}
+
+.p-optin div.p-body {
+    position: relative;
+}
+
+.p-optin .p-success {
+    color: #696969;
+    font-size: 1.2em;
+    margin: 2rem;
+    text-align: center;
+    display: flex;
+    inset: 0;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-optin .p-field {
+    margin-bottom: 1rem;
+}
+
+.p-optin label {
+    font-weight: normal;
+}
+
+.p-optin .p-field label span {
+    font-size: 0.95em;
+    margin-bottom: 0.25rem;
+    display: none;
+}
+
+.p-optin input[type='checkbox'] {
+    margin-right: 0.5rem;
+}
+
+.p-optin .p-field select,
+.p-optin .p-field input[type='text'] {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 100%;
+    color: #696969;
+    padding: 0.5rem;
+    width: 100%;
+    background: #fff;
+}
+
+.p-optin .p-field input[type='text'].p-error,
+.p-optin .p-field select.p-error {
+    border-color: #ff5722;
+    background-color: #fff8f5;
+}
+
+.p-optin .p-field input[type='text'].p-error::placeholder {
+    color: #ff5722;
+}
+
+.p-optin .p-body p.p-error-message {
+    color: #ff5722;
+    font-size: 0.9em;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.p-optin .p-interests {
+    margin: 1.5rem 0;
+}
+
+.p-optin .p-interest {
+    margin-bottom: 0.5rem;
+}
+
+.p-optin p.p-interests-text {
+    font-size: 1em;
+}
+
+.p-open,
+.p-optin button {
+    border: none;
+    background: #00aee8;
+    border-radius: 5px;
+    color: #eee;
+    font-size: 1em;
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+.p-optin button {
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 0.7rem 1.5rem;
+    width: 100%;
+}
+
+button.p-open:hover,
+.p-optin button:hover {
+    filter: brightness(1.1);
+}
+
+button.p-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form.p-submitting button.p-submit {
+    filter: opacity(0.3);
+    cursor: default;
+}
+
+.p-layer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    overflow: auto;
+    z-index: 20000;
+}
+
+.p-layer.p-closed {
+    display: none;
+}
+
+.p-inline .p-optin {
+    max-width: 100%;
+    margin: 0;
+}
+
+.p-layer .p-optin {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    margin: 60px auto;
+}
+
+.p-close-layer {
+    position: absolute;
+    inset: 0;
+}
+
+.p-body p.p-footer {
+    font-size: 0.9em;
+    margin: 1rem 0 0 0;
+}
+
+/* 2 col layout  */
+.p-layout-leftImage .p-grid,
+.p-layout-rightImage .p-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 2rem;
+}
+
+.p-layout-topImage .p-grid {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-column-gap: 2rem;
+}
+
+.p-col-image {
+    display: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.p-layout-topImage .p-col-image {
+    display: block;
+}
+
+@media (min-width: 736px) {
+    .p-layout-leftImage .p-grid,
+    .p-layout-rightImage .p-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 2rem;
+    }
+
+    .p-col-image {
+        display: block;
+    }
+}
+
+/* Layouts */
+.p-layout-leftImage .p-body,
+.p-layout-rightImage .p-body,
+.p-layout-topImage .p-body {
+    padding: 0;
+}
+
+.p-layout-leftImage .p-col-form,
+.p-layout-rightImage .p-col-form,
+.p-layout-topImage .p-col-form {
+    padding: 2rem;
+    position: relative;
+}
+
+.p-layout-leftImage .p-grid,
+.p-layout-rightImage .p-grid,
+.p-layout-topImage .p-grid {
+    grid-column-gap: 0;
+}
+
+.p-layout-inline .p-inline-fields {
+    flex: 1 1 0%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.p-layout-inline .p-inline-fields button {
+    flex-shrink: 1;
+    width: unset;
+    white-space: nowrap;
+}
+.p-layout-inline .p-inline-fields .p-field {
+    flex-grow: 1;
+    margin: 0;
+}
+
+.p-body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* TN fixes */
+
+.p-optin,
+.p-optin * {
+    font-family: inherit;
+}
+
+.p-optin .p-field select,
+.p-optin .p-field input[type='text'] {
+    height: auto;
+    margin: auto;
+}
+
+.p-optin .p-field select,
+.p-optin .p-field input[type='text'] {
+    height: auto;
+    margin: auto;
+}
+
+.p-optin input[type='checkbox'] {
+    -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
+    appearance: checkbox;
+}
+
+/* spinner */
+
+.p-optin .p-spinner {
+    animation: p-rotate 2s linear infinite;
+    z-index: 2;
+    width: 20px;
+    height: 20px;
+}
+
+.p-optin .p-spinner circle {
+    stroke: rgba(255, 255, 255, 0.4);
+    stroke-linecap: round;
+    animation: p-dash 1.5s ease-in-out infinite;
+}
+
+@keyframes p-rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes p-dash {
+    0% {
+        stroke-dasharray: 1, 150;
+        stroke-dashoffset: 0;
+    }
+    50% {
+        stroke-dasharray: 90, 150;
+        stroke-dashoffset: -35;
+    }
+    100% {
+        stroke-dasharray: 90, 150;
+        stroke-dashoffset: -124;
+    }
+}
+
+

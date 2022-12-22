@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    font-style: italic;
+    font-weight: 50px;
+    gap: 20px;
+}
+
+.page{
+    text-align: center;
+    margin: 100px;
+    font-size: 25px;
+    font-weight: 20px;
+    height: 180px;
+    color: rgb(192, 8, 209)
+}
+
+h2{
+    color: rgb(192, 8, 209);
+    font-size: 50px;
+    font-weight: 35px;
+}
+
+.a href{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+.redes section{
+    background-color: rgba(138, 6, 190, 0.616);
+    text-decoration: none;
+    list-style: none;
+    height: 80px;
+    margin: 80px;
+}
+
+.nav{
+    text-decoration: none;
+    text-align: left;
+}
+
+
+header{
+    text-align: center;
+}
+
+.redes{
+    text-align: center;
+    background-color: rgba(138, 6, 190, 0.616);
+}
+
+.stock{
+    text-align: center;
+    font-size: 30px;
+    height: 100px;
+    background-color: rgba(138, 6, 190, 0.616);
+}
+
+.stock a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    height: 100px;
+    margin: 15px;
+}
+
+.redes-index{
+    text-align: center;
+    background-color:rgba(138, 6, 190, 0.616);
+    margin-top: auto;
+    align-items: center;
+}
+
+.enlace{
+    font-size: 25px;
+    margin: 120px;
+    color: black;
+}
+
+.wts{
+    background-color: rgba(138, 6, 190, 0.616);
+    text-decoration: none;
+    text-align: center;
+    align-self: center;
+    height: 80px;
+    font-size: 25px;
+}
+
+.contacto{
+    margin: 10px;
+    color: black;
+    margin: auto;
+    align-items: center;
+    align-self: center
+}
+
+.index-contactos{
+    list-style: none;
+    color: black;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.buzos-inicio{
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    height: 100px;
+}
+
+.stock-buzos{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 200px;
+    justify-content: center;
+    text-align: center;
+}
+
+.tachado{
+    text-decoration: line-through;
+}
+
+.stock-remeras{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 200px;
+    justify-content: center;
+    text-align: center;
+}
+
+.remeras-inicio{
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    height: 100px;
+}
+
+.stock-shorts{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 200px;
+    justify-content: center;
+    text-align: center;
+}
+
+.shorts-inicio{
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    height: 100px;
+}
+
+.stock-accesorios{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 200px;
+    justify-content: center;
+    text-align: center;
+}
+
+.accesorios-inicio{
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    height: 100px;
+}
+
+
