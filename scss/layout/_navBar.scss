@@ -1,0 +1,15 @@
+.navBar {
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	list-style: none;
+	li {
+		a {
+			&:hover {
+				cursor: pointer;
+				scale: none;
+				color: black;
+			}
+		}
+	}
+}

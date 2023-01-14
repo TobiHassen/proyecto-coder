@@ -1,0 +1,42 @@
+body {
+	background: #654ea3;
+	background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
+	background: linear-gradient(to right, #eaafc8, #654ea3);
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+h2 {
+	color: rgb(192, 8, 209);
+	font-size: 50px;
+	font-weight: 35px;
+}
+.a {
+	href {
+		color: black;
+		list-style: none;
+		text-decoration: none;
+	}
+}
+.redes {
+	section {
+		background-color: b311b3;
+		text-decoration: none;
+		list-style: none;
+		height: 80px;
+		margin: 80px;
+	}
+}
+
+.radial {
+	width: 300px;
+	height: 300px;
+	background-image: radial-gradient(#eaafc8), (#654ea3), (#eaafc8);
+}
+.lineal {
+	width: 300px;
+	height: 300px;
+	background-image: linear-gradient(##654ea3), (#eaafc8), (#eaafc8);
+}

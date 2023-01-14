@@ -1,0 +1,59 @@
+.buzos-inicio {
+	text-align: center;
+	margin: 10px;
+	font-size: 30px;
+	height: 100px;
+}
+.stock-buzos {
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+	margin: 200px;
+	justify-content: center;
+	text-align: center;
+}
+.tachado {
+	text-decoration: line-through;
+}
+.stock-remeras {
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+	margin: 200px;
+	justify-content: center;
+	text-align: center;
+}
+.remeras-inicio {
+	text-align: center;
+	margin: 10px;
+	font-size: 30px;
+	height: 100px;
+}
+.stock-shorts {
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+	margin: 200px;
+	justify-content: center;
+	text-align: center;
+}
+.shorts-inicio {
+	text-align: center;
+	margin: 10px;
+	font-size: 30px;
+	height: 100px;
+}
+.stock-accesorios {
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+	margin: 200px;
+	justify-content: center;
+	text-align: center;
+}
+.accesorios-inicio {
+	text-align: center;
+	margin: 10px;
+	font-size: 30px;
+	height: 100px;
+}
