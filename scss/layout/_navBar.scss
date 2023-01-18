@@ -5,10 +5,13 @@
 	list-style: none;
 	li {
 		a {
-			&:hover {
-				cursor: pointer;
-				scale: none;
-				color: black;
+			.navBar {
+				li {
+					&:hover {
+						cursor: pointer;
+						transform: scale(1.15);
+					}
+				}
 			}
 		}
 	}

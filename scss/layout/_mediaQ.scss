@@ -4,6 +4,10 @@
 			.navBar {
         font-size: 15px;
 			flex-direction: column;
+			.navBar li:hover {
+				cursor: pointer;
+				transform: scale(1.15);
+			}
 		}
 	}
 }
@@ -53,4 +57,12 @@
 p {
 	text-align: center;
 	font-size: small;
+}
+
+.enlace {
+	margin-top: 30px;
+	font-size: small;
+}
+.page {
+	align-self: center;
 }
