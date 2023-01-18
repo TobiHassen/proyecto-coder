@@ -54,7 +54,7 @@ header {
     font-family: 'PT Sans Narrow', sans-serif;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    background-color: #b311b3;
+    background: linear-gradient(to right, #000000, #c404dd);
 }
 
 .stock {
@@ -89,7 +89,7 @@ header {
 }
 
 .wts {
-    background-color: rgba(138, 6, 190, 0.616);
+    background: linear-gradient(to right, #000000, #c404dd);
     text-decoration: none;
     text-align: center;
     align-self: center;
@@ -99,7 +99,6 @@ header {
 
 .contacto {
     margin: 10px;
-    color: black;
     margin: auto;
     align-items: center;
     align-self: center
@@ -466,7 +465,7 @@ body {
 
 .enlace{    
     margin-top: 30px;
-    font-size: small;
+    font-size: medium;
 }
 
 .page{
