@@ -1,6 +1,5 @@
 <html>
 <head>
-<title>Readme para una pagina web de venta de ropa</title>
 </head>
 
 <body>
